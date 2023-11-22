@@ -8,7 +8,7 @@ const Friends = () => {
   return (
     <div>
       <h2 className='text-center fond-bold text-4xl '>You are my friends:{friends.length}</h2>
-      <div>
+      <div >
 
         {
           friends.map(friend =><SingleFriend 
